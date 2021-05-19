@@ -129,8 +129,9 @@ margin-bottom:2rem;
         margin: 21px 20px;
     }
     .ciudad {
-        font-size:1.8rem;
+        
         text-transform: uppercase;
         margin-bottom: 0.5rem;
+        font-size:1.8rem;
     }
 }
