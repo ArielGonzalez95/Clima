@@ -61,7 +61,9 @@ margin:50px 20px
     padding:40px;
     text-align:center;
     border-radius: 10px;
-    display: none; 
+    display:none;
+    
+    
 }
 
 .ciudad{
@@ -108,9 +110,20 @@ margin-bottom:2rem;
     width:100px;
     margin-right: 10px;
     
+    
 
 }
+.imagenPrincipal{
+width:100%;
+margin-right:100px;
+text-align:center;
+}
 
+.imagenP{
+    width:300px;
+    padding-top: 51px;
+    text-align:center;
+}
 @media screen and (max-width:1044px){
     .clima{
         width:70%;

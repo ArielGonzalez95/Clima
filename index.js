@@ -13,6 +13,7 @@ const estado = document.getElementById('estado');
 const temperaturamaxmin = document.getElementById('temperatura-min-max');
 
 
+
 async function encontrar(query) {
     try {
        
@@ -27,6 +28,7 @@ async function encontrar(query) {
       temperaturamaxmin.innerHTML = `${toCelsius(data.main.temp_min)}c / ${toCelsius(data.main.temp_max)}c`;
       imagenEstado(data); 
       updateImages(data);
+      imagenPoff();
       
     } catch (err) {
       console.log(err);
@@ -79,6 +81,11 @@ function updateImages(data) {
       src = 'imagenes/temperatura-baja.png';
     }
     temperaturaImg.src = src;
+  }
+  
+  function imagenPoff (){
+    document.getElementById("imagenP").style.display = "none";
+
   }
 
 
