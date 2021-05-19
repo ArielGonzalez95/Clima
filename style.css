@@ -1,7 +1,5 @@
 
-*{
-    font-family: 'Montserrat', sans-serif;
-}
+
 
 :root{
     --bg-color: #0077b6;
@@ -12,7 +10,7 @@
 }
 
 body{
-    font-family: 'Roboto', sans-serif;
+    
     font-family: 'Source Sans Pro', sans-serif;
     background-color: var(--bg-color);
     color: var(--buscador-color);
@@ -122,5 +120,9 @@ margin-bottom:2rem;
     footer{
         padding:3px;
         width:96%;
+    }
+    p{
+        margin-bottom: 1rem;
+        line-height: 0.2rem;
     }
 }
