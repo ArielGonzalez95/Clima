@@ -1,0 +1,111 @@
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root{
+    --bg-color: #0077b6;
+    --text-color:#284b63;
+    --buscador-color:#d9d9d9;
+    font-size: 18px;
+    
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--buscador-color);
+}
+a{
+    color: var(--buscador-color);
+}
+p{
+    margin-bottom: 0.75rem;
+    line-height:1.2rem;
+}
+footer{
+    position: fixed;
+    bottom:0;
+    padding:20px;
+    border-top:1px solid var(--buscador-color);
+    width:100%;
+    text-align:center;
+}
+.buscador-formulario{
+margin:20px 20px
+
+}
+.contenedor{
+    padding:10px 20px;
+    background-color: var(--buscador-color);
+    max-width:480px;
+    margin: 0px auto;
+    border-radius: 3px;
+
+}
+.buscador{
+    width:100%;
+    background-color: var(--buscador-color);
+    border: none;
+    font-size: 1rem;
+}
+.buscador:focus {
+    outline:none;
+}
+.clima{
+    margin:48px 208px;
+    background: var(--text-color);
+    color:var(--buscador-color);
+    padding:20px;
+    text-align:center;
+    border-radius: 10px;
+    display: none; 
+}
+
+.ciudad{
+    font-size:2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+
+}
+
+.fecha{
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+}
+.temperatura{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom:2rem;
+
+}
+.imagen-temperatura{
+    width:50px;
+    margin-right: 10px;
+}
+.temperatura-actual{
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+.estado{
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+
+}
+
+#estado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:1rem;
+
+}
+
+.imagen-estado{
+    width:100px;
+    margin-right: 10px;
+    
+
+}
