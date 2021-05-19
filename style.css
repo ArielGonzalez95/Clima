@@ -113,14 +113,14 @@ margin-bottom:2rem;
 
 }
 
-@media screen and (max-width:420px){
+@media screen and (max-width:1044px){
     .clima{
         width:70%;
         padding:11px;
     }
 
     footer{
-        padding:11px;
+        padding:3px;
         width:96%;
     }
 }
