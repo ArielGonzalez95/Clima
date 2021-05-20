@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./index.js" defer></script>
+
+    <title>Clima</title>
+</head>
+
+<body>
+    <main>
+        <div class="buscador-formulario">
+            <form id="buscar">
+                <div class="contenedor">
+                    <input type="text" autocomplete="off" placeholder="Buscar Ciudad" class="buscador" id="buscador" onfocus="vaciar" />
+                </div>
+
+            </form>
+        </div>
+        
+        <div class="clima" id="clima">
+            <div class="ciudad" id="ciudad"></div>
+            <div class="fecha" id="fecha"></div>
+            <div class="temperatura" id="temperatura">
+                <img src="" class="imagen-temperatura" id="temperaturaImg" />
+                <div class="temperatura-actual" id="temperatura-actual"></div>
+            </div>
+            
+            <div class="estado">
+                <span id="estado"></span>
+                <img src="" class="imagen-estado" id="imagenclima" />
+                
+            </div>
+            <div class="temperatura-min-max" id="temperatura-min-max"> </div>
+
+        </div>
+        <div class="imagenPrincipal" id="imagenP">
+            <h2>Busca el clima segun tu pais</h2>
+            <img src="./imagenes/imagen-principal.png" alt="" class="imagenP" >
+        </div>
+    </main>
+    <div id="map"></div>
+    <footer>
+
+        <p>Pagina Realizada por: <a href="http://">Ariel Gonzalez</a></p>
+
+
+    </footer>
+</body>
+
+
+</html>
